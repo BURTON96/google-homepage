@@ -3,6 +3,13 @@ html {
     width: 100vw;
     height: 100vh;
 }
+body{
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 header {
     font-size: 13px;
@@ -43,13 +50,11 @@ header button {
 .right-nav {
     width: 50%;
     justify-content: flex-end;
-    right: 0;
 }
 
 .right-nav a {
     line-height: 24px;
     margin-right: 15px;
-    right: 0;
 }
 
 .right-nav img {
@@ -130,4 +135,35 @@ input {
     min-width: 54px;
     text-align: center;
     cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100vw;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+    color: #222;
+}
+
+.left-footer {
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.left-footer a {
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.right-footer {
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.right-footer a {
+    line-height: 24px;
+    margin-right: 15px;
+    right: 0;
 }
