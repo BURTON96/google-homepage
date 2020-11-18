@@ -7,7 +7,6 @@ html {
 header {
     font-size: 13px;
     color: rgba(0, 0, 0, 0.87);
-    
 }
 
 header p, header button {
@@ -17,7 +16,7 @@ header p, header button {
 
 header button {
     color: #fff;
-    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
     border: 1px solid #4285f4;
     font-weight: bold;
     outline: none;
@@ -26,50 +25,61 @@ header button {
     padding: 0 12px;
     border-radius: 2px;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
 }
-.left-nav{
+
+.left-nav {
     width: 50%;
     justify-content: flex-start;
 }
-.left-nav a{
+
+.left-nav a {
     line-height: 24px;
     margin-left: 15px;
 }
-.right-nav{
+
+.right-nav {
     width: 50%;
     justify-content: flex-end;
     right: 0;
 }
-.right-nav a{
+
+.right-nav a {
     line-height: 24px;
     margin-right: 15px;
     right: 0;
 }
-.right-nav img{
+
+.right-nav img {
     margin-top: 12px;
 }
-.right-nav button{ 
+
+.right-nav button {
     margin-top: 10px;
 }
-.main-logo{
+
+.main-logo {
     height: 100%;
     width: 100%;
     text-align: center;
 }
-.logo-container img{
+
+.logo-container img {
     margin: auto;
     padding-top: 109px;
     height: 92px;
     width: 272px;
     justify-content: center;
 }
-.search-container{
+
+.search-container {
     text-align: center;
-    padding-top:  25px;;
+    padding-top: 25px;
 }
-.search-content{
+
+.search-content {
     margin: auto;
     padding: auto;
     border: 1px solid #dfe1e5;
@@ -77,24 +87,47 @@ header button {
     width: 550px;
     line-height: 34px;
 }
+
 .search-img, .search {
     justify-content: center;
 }
 
-.search-img{
+.search-img {
     width: 14px;
     height: 100%;
 }
-input{
+
+input {
     width: 487px;
     line-height: 30px;
     font-size: 14;
-    border: none; 
+    border: none;
 }
-.microphone{
+
+.microphone {
     padding-top: 12px;
 }
-.mag-glass
-{
+
+.mag-glass {
     padding-bottom: 4px;
+}
+
+.button-container {
+    padding-top: 25px;
+}
+
+.button-container button {
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-size: 14px;
+    margin-left: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
 }
