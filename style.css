@@ -65,3 +65,29 @@ header button {
     width: 272px;
     justify-content: center;
 }
+.search-container{
+    text-align: center;
+    padding-top:  25px;;
+}
+.search-content{
+    margin: auto;
+    padding: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 550px;
+    line-height: 44px;
+}
+.search-img, .search {
+    justify-content: center;
+}
+
+.search-img{
+    width: 14px;
+    height: 100%;
+}
+input{
+    width: 487px;
+    line-height: 34px;
+    font-size: 14;
+    border: none; 
+}
