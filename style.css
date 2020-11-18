@@ -53,3 +53,15 @@ header button {
 .right-nav button{ 
     margin-top: 10px;
 }
+.main-logo{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.logo-container img{
+    margin: auto;
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+    justify-content: center;
+}
