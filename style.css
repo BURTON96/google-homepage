@@ -47,7 +47,9 @@ header button {
     margin-right: 15px;
     right: 0;
 }
-.right-nav button, .right-nav img{
-    line-height: 28px;
-    padding: 0 12px;
+.right-nav img{
+    margin-top: 12px;
+}
+.right-nav button{ 
+    margin-top: 10px;
 }
